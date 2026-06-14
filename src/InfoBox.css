@@ -1,0 +1,19 @@
+.InfoBox {
+  margin-top: 2rem;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.CardContainer .MuiCard-root {
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.CardContainer .MuiCard-root:hover {
+  transform: translateY(-6px);
+  cursor: default;
+}
