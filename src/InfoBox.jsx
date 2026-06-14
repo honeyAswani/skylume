@@ -23,7 +23,7 @@ export default function InfoBox({ info }) {
             <Card
   sx={{
     width: {
-      xs: "90%",
+      xs: "92%",
       sm: 380,
     },
     borderRadius: 4,

@@ -96,7 +96,7 @@ export default function SearchBox({ updateInfo }) {
     return (
         <div className='SearchBox'>
             <form onSubmit={handleSubmit}>
-                <TextField id="city" label="City Name" variant="outlined" value={city} onChange={handleChange} required />
+                <TextField id="city" label="City Name" variant="outlined" value={city} onChange={handleChange}  placeholder="e.g. Delhi, Mumbai" required />
                 <Button variant="contained" type="submit" disabled={loading} sx={{ marginTop: "0px" }}>
                     {loading ? "Loading..." : "Search"}
                 </Button>

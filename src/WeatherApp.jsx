@@ -50,17 +50,27 @@ else if (weatherInfo.weather.includes("thunderstorm")) {
       color: "#1f2937",
       fontWeight: "700",
     letterSpacing: "-1px",
+    marginTop: "0px",
     }}
   >
-    Weather App
+    SkyLume
   </h1>
 
   <p style={{ color: "#6b7280", marginBottom: "35px" , fontsize: "1rem" }}>
-    Search real-time weather conditions for any city.
+    Clean, real-time weather updates powered by OpenWeather API.
   </p>
 
   <SearchBox updateInfo={updateInfo} />
   <InfoBox info={weatherInfo} />
+  <p
+  style={{
+    marginTop: "40px",
+    color: "#6b7280",
+    fontSize: "0.9rem",
+  }}
+>
+  Built with React & OpenWeather API
+</p>
 </div>
     );
 };

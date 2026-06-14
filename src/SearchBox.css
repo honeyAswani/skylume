@@ -15,4 +15,6 @@
   text-transform: none;
   font-weight: 600;
   border-radius: 10px;
+}.SearchBox button {
+  transition: all 0.2s ease;
 }
